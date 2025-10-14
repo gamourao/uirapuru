@@ -1,0 +1,182 @@
+[gd_scene load_steps=3 format=3 uid="uid://c1bna3cp1w8lx"]
+
+[ext_resource type="PackedScene" uid="uid://dbgvtv04nayg6" path="res://seletor_plantas.tscn" id="1_p15iy"]
+[ext_resource type="Texture2D" uid="uid://c16dyeayr4m1c" path="res://icon.svg" id="2_rl3qg"]
+
+[node name="menu_iterativo" type="VBoxContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -69.0
+offset_bottom = 75.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Sementes_label" type="Label" parent="."]
+layout_mode = 2
+text = "SEMENTES	"
+horizontal_alignment = 1
+
+[node name="Sementes" parent="." instance=ExtResource("1_p15iy")]
+layout_mode = 2
+
+[node name="Matérias_label" type="Label" parent="."]
+layout_mode = 2
+text = "MATÉRIAS ORGÂNICAS	"
+horizontal_alignment = 1
+
+[node name="Materias" type="GridContainer" parent="."]
+layout_mode = 2
+size_flags_vertical = 3
+columns = 3
+
+[node name="TextureButton" type="TextureButton" parent="Materias"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource("2_rl3qg")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="TextureButton2" type="TextureButton" parent="Materias"]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("2_rl3qg")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="TextureButton3" type="TextureButton" parent="Materias"]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("2_rl3qg")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="TextureButton4" type="TextureButton" parent="Materias"]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("2_rl3qg")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="TextureButton5" type="TextureButton" parent="Materias"]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("2_rl3qg")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="TextureButton6" type="TextureButton" parent="Materias"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource("2_rl3qg")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="TextureButton7" type="TextureButton" parent="Materias"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource("2_rl3qg")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="TextureButton8" type="TextureButton" parent="Materias"]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("2_rl3qg")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="TextureButton9" type="TextureButton" parent="Materias"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource("2_rl3qg")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Ferramentas_label" type="Label" parent="."]
+layout_mode = 2
+text = "FERRAMENTAS"
+horizontal_alignment = 1
+
+[node name="Ferramentas" type="GridContainer" parent="."]
+layout_mode = 2
+size_flags_vertical = 3
+columns = 3
+
+[node name="TextureButton" type="TextureButton" parent="Ferramentas"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource("2_rl3qg")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="TextureButton2" type="TextureButton" parent="Ferramentas"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource("2_rl3qg")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="TextureButton3" type="TextureButton" parent="Ferramentas"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource("2_rl3qg")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="TextureButton4" type="TextureButton" parent="Ferramentas"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource("2_rl3qg")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="TextureButton5" type="TextureButton" parent="Ferramentas"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource("2_rl3qg")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="TextureButton6" type="TextureButton" parent="Ferramentas"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource("2_rl3qg")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="TextureButton7" type="TextureButton" parent="Ferramentas"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource("2_rl3qg")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="TextureButton8" type="TextureButton" parent="Ferramentas"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource("2_rl3qg")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="TextureButton9" type="TextureButton" parent="Ferramentas"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource("2_rl3qg")
+ignore_texture_size = true
+stretch_mode = 5

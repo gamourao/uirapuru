@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://dbgvtv04nayg6"]
+
+[node name="seletor_plantas" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="sele_planta" type="ItemList" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+item_count = 11
+item_0/text = "Embaúba"
+item_1/text = "Feijão"
+item_2/text = "Ingá"
+item_3/text = "Milho"
+item_4/text = "Abacaxi"
+item_5/text = "Ipê"
+item_6/text = "Pau Brasil"
+item_7/text = "Pitangueira"
+item_8/text = "Jabuticabeira"
+item_9/text = "Pata de vaca"
+item_10/text = "Bananeira"

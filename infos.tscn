@@ -1,0 +1,101 @@
+[gd_scene load_steps=2 format=3 uid="uid://benqld2xvbkpg"]
+
+[sub_resource type="GDScript" id="GDScript_3yukq"]
+script/source = "extends Label
+
+var texto = \"\"
+
+func _ready() -> void:
+	Globais.solo_selecionado.connect(_muda_texto)
+
+func _muda_texto(solo):
+	var nitrogenio = str(solo.dados[\"nitrogenio\"])
+	var fosforo = str(solo.dados[\"fosforo\"])
+	var potassio = str(solo.dados[\"potassio\"])
+	var humidade = str(solo.dados[\"humidade\"])
+	
+	var texto = \"Nitrogênio: \" + nitrogenio + \" / Fósforo: \" + fosforo + \" / Potássio: \" + potassio + \" / Humidade: \" + humidade
+	
+	text = texto
+"
+
+[node name="infos" type="VBoxContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="status_dia" type="HBoxContainer" parent="."]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="painel_hora" type="Panel" parent="status_dia"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="hora" type="Label" parent="status_dia/painel_hora"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 6
+text = "HORA ATUAL"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="painel_estacao" type="Panel" parent="status_dia"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="estação" type="Label" parent="status_dia/painel_estacao"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+text = "ESTAÇÃO DO ANO"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="painel_solo" type="Panel" parent="."]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="solo" type="Label" parent="painel_solo"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 3
+text = "DADOS DO SOLO"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+script = SubResource("GDScript_3yukq")
+
+[node name="painel_planta" type="Panel" parent="."]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="planta" type="Label" parent="painel_planta"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "DADOS DA PLANTA SELECIONADA"
+horizontal_alignment = 1
+vertical_alignment = 1

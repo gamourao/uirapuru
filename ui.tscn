@@ -1,0 +1,828 @@
+[gd_scene load_steps=4 format=3 uid="uid://nssnsba6tafb"]
+
+[ext_resource type="PackedScene" uid="uid://c1bna3cp1w8lx" path="res://menu_iterativo.tscn" id="1_27fn8"]
+[ext_resource type="Script" uid="uid://b7vhv4v2ixqfp" path="res://solo.gd" id="2_27fn8"]
+[ext_resource type="PackedScene" uid="uid://benqld2xvbkpg" path="res://infos.tscn" id="3_nltto"]
+
+[node name="Control" type="CanvasLayer"]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="menu_iterativo" parent="HBoxContainer" instance=ExtResource("1_27fn8")]
+layout_mode = 2
+
+[node name="fazenda" type="GridContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+columns = 10
+
+[node name="solo1" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("2_27fn8")
+
+[node name="solo2" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo3" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo4" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo5" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo6" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo7" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo8" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo9" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo10" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo11" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo12" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo13" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo14" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo15" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo16" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo17" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo18" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo19" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo20" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo21" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo22" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo23" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo24" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo25" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo26" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo27" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo28" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo29" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo30" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo31" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo32" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo33" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo34" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo35" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo36" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo37" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo38" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo39" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo40" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo41" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo42" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo43" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo44" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo45" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo46" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo47" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo48" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo49" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo50" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo51" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo52" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo53" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo54" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo55" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo56" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo57" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo58" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo59" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo60" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo61" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo62" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo63" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo64" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo65" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo66" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo67" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo68" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo69" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo70" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo71" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo72" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo73" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo74" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo75" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo76" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo77" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo78" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo79" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo80" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo81" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo82" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo83" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo84" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo85" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo86" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo87" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo88" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo89" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo90" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo91" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo92" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo93" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo94" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo95" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo96" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo97" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo98" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo99" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo100" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo101" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo102" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo103" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo104" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo105" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo106" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo107" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo108" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo109" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo110" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo111" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo112" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo113" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo114" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo115" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo116" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo117" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo118" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo119" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo120" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo121" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo122" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo123" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo124" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo125" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo126" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo127" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo128" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo129" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo130" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo131" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo132" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo133" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo134" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo135" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo136" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo137" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo138" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo139" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo140" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo141" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo142" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo143" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo144" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo145" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo146" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo147" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo148" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo149" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo150" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo151" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo152" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo153" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo154" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo155" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo156" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo157" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo158" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo159" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="solo160" type="Button" parent="HBoxContainer/fazenda"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="infos" parent="HBoxContainer" instance=ExtResource("3_nltto")]
+layout_mode = 2
+
+[connection signal="pressed" from="HBoxContainer/fazenda/solo1" to="HBoxContainer/fazenda/solo1" method="_on_pressed"]

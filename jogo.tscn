@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://btdli7b7c4c4d"]
+
+[ext_resource type="PackedScene" uid="uid://nssnsba6tafb" path="res://ui.tscn" id="1_kxg5b"]
+
+[node name="jogo" type="Node2D"]
+
+[node name="fundo" type="Polygon2D" parent="."]
+clip_children = 2
+position = Vector2(-67, -65)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(0, 0, 1300, 0, 1300, 1000, 0, 1000)
+
+[node name="Control" parent="." instance=ExtResource("1_kxg5b")]
+
+[node name="solo1" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="solo1"]
+
+[node name="Line2D" type="Line2D" parent="solo1"]
+position = Vector2(397, 3)
+points = PackedVector2Array(0, 0, 50, 0, 50, 50, 0, 50, 0, 0)
+width = 3.0
