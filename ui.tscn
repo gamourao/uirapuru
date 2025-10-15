@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://b7vhv4v2ixqfp" path="res://solo.gd" id="2_27fn8"]
 [ext_resource type="PackedScene" uid="uid://benqld2xvbkpg" path="res://infos.tscn" id="3_nltto"]
 
-[node name="Control" type="CanvasLayer"]
+[node name="ui" type="CanvasLayer"]
 
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
 anchors_preset = 15

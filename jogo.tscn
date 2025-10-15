@@ -1,22 +1,68 @@
-[gd_scene load_steps=2 format=3 uid="uid://btdli7b7c4c4d"]
+[gd_scene load_steps=4 format=3 uid="uid://btdli7b7c4c4d"]
 
-[ext_resource type="PackedScene" uid="uid://nssnsba6tafb" path="res://ui.tscn" id="1_kxg5b"]
+[ext_resource type="PackedScene" uid="uid://c1bna3cp1w8lx" path="res://menu_iterativo.tscn" id="1_kxg5b"]
+[ext_resource type="PackedScene" uid="uid://benqld2xvbkpg" path="res://infos.tscn" id="2_evvns"]
+[ext_resource type="PackedScene" uid="uid://cjpjlcx42j735" path="res://solo.tscn" id="3_yq54j"]
 
 [node name="jogo" type="Node2D"]
 
 [node name="fundo" type="Polygon2D" parent="."]
 clip_children = 2
-position = Vector2(-67, -65)
+position = Vector2(-80, -48)
 color = Color(0, 0, 0, 1)
-polygon = PackedVector2Array(0, 0, 1300, 0, 1300, 1000, 0, 1000)
+polygon = PackedVector2Array(0, 0, 2065, 16, 2099, 1196, -19, 1205)
 
-[node name="Control" parent="." instance=ExtResource("1_kxg5b")]
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+follow_viewport_enabled = true
 
-[node name="solo1" type="Area2D" parent="."]
+[node name="menu_iterativo" parent="CanvasLayer" instance=ExtResource("1_kxg5b")]
+custom_minimum_size = Vector2(600, 1040)
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_top = 0.0
+offset_right = 600.0
+offset_bottom = 1040.0
+grow_horizontal = 1
+grow_vertical = 1
+size_flags_horizontal = 2
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="solo1"]
+[node name="infos" parent="CanvasLayer" instance=ExtResource("2_evvns")]
+custom_minimum_size = Vector2(600, 1040)
+anchors_preset = 1
+anchor_left = 1.0
+anchor_bottom = 0.0
+offset_left = -600.0
+offset_bottom = 1040.0
+grow_horizontal = 0
+grow_vertical = 1
 
-[node name="Line2D" type="Line2D" parent="solo1"]
-position = Vector2(397, 3)
-points = PackedVector2Array(0, 0, 50, 0, 50, 50, 0, 50, 0, 0)
-width = 3.0
+[node name="solo1" parent="." instance=ExtResource("3_yq54j")]
+position = Vector2(640, 0)
+
+[node name="solo2" parent="." instance=ExtResource("3_yq54j")]
+position = Vector2(704, 0)
+
+[node name="solo3" parent="." instance=ExtResource("3_yq54j")]
+position = Vector2(768, 0)
+
+[node name="solo4" parent="." instance=ExtResource("3_yq54j")]
+position = Vector2(832, 0)
+
+[node name="solo5" parent="." instance=ExtResource("3_yq54j")]
+position = Vector2(896, 0)
+
+[node name="solo6" parent="." instance=ExtResource("3_yq54j")]
+position = Vector2(960, 0)
+
+[node name="solo7" parent="." instance=ExtResource("3_yq54j")]
+position = Vector2(1024, 0)
+
+[node name="solo8" parent="." instance=ExtResource("3_yq54j")]
+position = Vector2(1088, 0)
+
+[node name="solo9" parent="." instance=ExtResource("3_yq54j")]
+position = Vector2(1152, 0)
+
+[node name="solo10" parent="." instance=ExtResource("3_yq54j")]
+position = Vector2(1216, 0)

@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://cjpjlcx42j735"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4l8dm"]
+size = Vector2(64, 64)
+
+[node name="solo1" type="Area2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(32, 32)
+shape = SubResource("RectangleShape2D_4l8dm")
+
+[node name="Line2D" type="Line2D" parent="."]
+points = PackedVector2Array(0, 0, 64, 0, 64, 64, 0, 64, 0, 0)
+width = 1.0
