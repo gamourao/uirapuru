@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://btdli7b7c4c4d"]
+[gd_scene load_steps=5 format=3 uid="uid://btdli7b7c4c4d"]
 
 [ext_resource type="PackedScene" uid="uid://c1bna3cp1w8lx" path="res://menu_iterativo.tscn" id="1_kxg5b"]
 [ext_resource type="PackedScene" uid="uid://benqld2xvbkpg" path="res://infos.tscn" id="2_evvns"]
 [ext_resource type="PackedScene" uid="uid://cjpjlcx42j735" path="res://solo.tscn" id="3_yq54j"]
+[ext_resource type="PackedScene" uid="uid://dd41g8k3grdr7" path="res://embauba.tscn" id="4_1ap6j"]
 
 [node name="jogo" type="Node2D"]
 
@@ -38,31 +39,37 @@ grow_horizontal = 0
 grow_vertical = 1
 
 [node name="solo1" parent="." instance=ExtResource("3_yq54j")]
-position = Vector2(640, 0)
+position = Vector2(640, 64)
 
 [node name="solo2" parent="." instance=ExtResource("3_yq54j")]
-position = Vector2(704, 0)
+position = Vector2(704, 64)
 
 [node name="solo3" parent="." instance=ExtResource("3_yq54j")]
-position = Vector2(768, 0)
+position = Vector2(768, 64)
 
 [node name="solo4" parent="." instance=ExtResource("3_yq54j")]
-position = Vector2(832, 0)
+position = Vector2(832, 64)
 
 [node name="solo5" parent="." instance=ExtResource("3_yq54j")]
-position = Vector2(896, 0)
+position = Vector2(896, 64)
 
 [node name="solo6" parent="." instance=ExtResource("3_yq54j")]
-position = Vector2(960, 0)
+position = Vector2(960, 64)
 
 [node name="solo7" parent="." instance=ExtResource("3_yq54j")]
-position = Vector2(1024, 0)
+position = Vector2(1024, 64)
 
 [node name="solo8" parent="." instance=ExtResource("3_yq54j")]
-position = Vector2(1088, 0)
+position = Vector2(1088, 64)
 
 [node name="solo9" parent="." instance=ExtResource("3_yq54j")]
-position = Vector2(1152, 0)
+position = Vector2(1152, 64)
 
 [node name="solo10" parent="." instance=ExtResource("3_yq54j")]
-position = Vector2(1216, 0)
+position = Vector2(1216, 64)
+
+[node name="embauba" parent="." instance=ExtResource("4_1ap6j")]
+position = Vector2(672, 96)
+
+[node name="embauba2" parent="." instance=ExtResource("4_1ap6j")]
+position = Vector2(736, 96)

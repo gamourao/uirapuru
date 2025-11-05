@@ -1,4 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://benqld2xvbkpg"]
+[gd_scene load_steps=3 format=3 uid="uid://benqld2xvbkpg"]
+
+[ext_resource type="Script" uid="uid://yveghnhvmoo0" path="res://planta.gd" id="1_ek0vb"]
 
 [sub_resource type="GDScript" id="GDScript_3yukq"]
 script/source = "extends Label
@@ -101,3 +103,4 @@ grow_vertical = 2
 text = "DADOS DA PLANTA SELECIONADA"
 horizontal_alignment = 1
 vertical_alignment = 1
+script = ExtResource("1_ek0vb")
