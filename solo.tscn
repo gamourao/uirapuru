@@ -5,7 +5,7 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4l8dm"]
 size = Vector2(64, 64)
 
-[node name="solo1" type="Area2D"]
+[node name="solo1" type="Area2D" groups=["solo"]]
 script = ExtResource("1_pdogy")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -16,4 +16,5 @@ shape = SubResource("RectangleShape2D_4l8dm")
 points = PackedVector2Array(0, 0, 64, 0, 64, 64, 0, 64, 0, 0)
 width = 1.0
 
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
 [connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]

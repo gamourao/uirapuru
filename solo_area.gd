@@ -26,3 +26,9 @@ func _process(delta: float) -> void:
 func _on_mouse_entered() -> void:
 	Globais.solo_selecionado.emit(self)
 	pass # Replace with function body.
+
+
+func _on_area_entered(area: Area2D) -> void:
+	if area.is_in_group("plantas"):
+		area.get_parent().solo_em_que_esta = dados
+	pass # Replace with function body.
